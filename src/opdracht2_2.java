@@ -1,5 +1,5 @@
 import java.applet.Applet;
-import java. awt.*;
+import java.awt.*;
 
 
 public class opdracht2_2 extends Applet{
