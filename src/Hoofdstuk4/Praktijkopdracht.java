@@ -1,11 +1,9 @@
-package Hoofdstuk5;
+package Hoofdstuk4;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 import java.applet.*;
 
-public class Opdracht5_1 extends Applet {
-
+public class Praktijkopdracht extends Applet {
     Color opvulkleur;
     Color lijnkleur;
     int breedte;
