@@ -6,20 +6,20 @@ import java.awt.Color;
 
 public class Opdracht6_3 extends Applet {
 
-        double a, b, c, d, e, uitkomst;
+        int a;
+        int b;
+        int c;
+        int total;
         public void init()
         {
-            a=5.9;
-            b=6.3;
-            c=6.9;
-            d=3;
-            e=10;
-            uitkomst=((a+b+c)/d*e);
-            uitkomst=(int)uitkomst;
-            uitkomst=uitkomst/e;
+            a=Integer.MAX_VALUE;
+            b=200000;
+
+            c=2;
+            total = a*b*c;
         }
         public void paint(Graphics g)
         {
-            g.drawString("de uitkomst is: "+uitkomst, 50, 50);
+            g.drawString("het antwoord is: "+total, 20, 50);
         }
     }

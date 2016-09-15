@@ -21,7 +21,7 @@ public class Praktijkopdracht extends Applet {
         g.fillArc(250, 40, 100, 50, 0, 45);
         g.fillOval(140, 130, 100, 50);
         g.fillRect(140, 40, 100, 50);
-        g.setColor(Color.red);
+        g.setColor(Color.black);
         g.drawOval(140, 40, 100, 50);
         g.drawString("met ovaal", 140, 110);
         g.drawOval(250, 40, 100, 50);
