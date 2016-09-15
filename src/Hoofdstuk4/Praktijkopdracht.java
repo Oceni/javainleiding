@@ -1,37 +1,37 @@
 package Hoofdstuk4;
 
+
 import java.awt.*;
 import java.applet.*;
+import java.awt.Graphics;
+
 
 public class Praktijkopdracht extends Applet {
-    Color opvulkleur;
-    Color lijnkleur;
-    int breedte;
-    int hoogte;
-    public void init(){
-        opvulkleur = Color.MAGENTA;
-        lijnkleur = Color.BLACK;
-        breedte = 100;
-        hoogte = 50;}
 
-    public void paint(Graphics g){
+    public void init() {
+    }
+
+    public void paint(Graphics g) {
+
         g.drawLine(20, 10, 50, 10);
-        g.drawString("lijn", 25, 25);
-        g.drawRect(20, 30, breedte, hoogte);
-        g.drawString("rechthoek", 30, 100);
-        g.setColor(opvulkleur);
-        g.fillArc(240, 30, breedte, hoogte, 0, 45);
-        g.fillOval(130, 120, breedte, hoogte);
-        g.fillRect(130, 30, breedte, hoogte);
-        g.setColor(lijnkleur);
-        g.drawOval(130, 30, breedte, hoogte);
-        g.drawString("met ovaal", 130, 100);
-        g.drawOval(240, 30, breedte, hoogte);
-        g.drawString("punt met ovaal", 240, 100);
-        g.drawRoundRect(20, 120, breedte, hoogte, 30, 30);
-        g.drawString("ronde randen", 30, 190);
-        g.drawString("gevulde ovaal", 130, 190);
-        g.drawOval(265, 120, 50, 50);
-        g.drawString("cirkel", 270, 190);
+        g.drawString("lijn", 35, 35);
+        g.drawRect(30, 40, 100, 50);
+        g.drawString("Rechthoek", 40, 110);
+        g.setColor(Color.magenta);
+        g.fillArc(250, 40, 100, 50, 0, 45);
+        g.fillOval(140, 130, 100, 50);
+        g.fillRect(140, 40, 100, 50);
+        g.setColor(Color.red);
+        g.drawOval(140, 40, 100, 50);
+        g.drawString("met ovaal", 140, 110);
+        g.drawOval(250, 40, 100, 50);
+        g.drawString("punt met ovaal", 250, 110);
+        g.drawRoundRect(30, 130, 100, 50, 40, 40);
+        g.drawString("ronde randen", 40, 200);
+        g.drawString("gevulde ovaal", 140, 200);
+        g.drawOval(275, 130, 60, 60);
+        g.drawString("cirkel", 290, 200);
+
+
     }
 }
