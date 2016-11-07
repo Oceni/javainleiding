@@ -4,6 +4,9 @@ import java.applet.*;
 import java.awt.Color;
 
     public class Opdracht6_2 extends Applet {
+
+
+
         int minuut,uur,dag,jaar,uitkomst;
 
 

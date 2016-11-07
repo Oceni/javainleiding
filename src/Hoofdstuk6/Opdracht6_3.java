@@ -13,7 +13,7 @@ public class Opdracht6_3 extends Applet {
         public void init()
         {
             a=Integer.MAX_VALUE;
-            b=200000;
+            b=100000;
 
             c=2;
             total = a*b*c;
